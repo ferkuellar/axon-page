@@ -1,0 +1,45 @@
+import type { Testimonial } from "../types";
+
+export const testimonials: Testimonial[] = [
+  {
+    name: "Mariana Torres",
+    company: "Grupo Norte",
+    role: "Directora de Operaciones",
+    quote: "AxonAI convirtió reportes manuales en un sistema con alertas y visibilidad ejecutiva. El equipo dejó de perseguir hojas de cálculo para tomar decisiones.",
+    result: "-70% reportes manuales",
+    category: "Automatización",
+    technologies: ["n8n", "Dashboards", "APIs"],
+    initials: "MT",
+    featured: true,
+  },
+  {
+    name: "Diego Salazar",
+    company: "Atria Servicios",
+    role: "Founder",
+    quote: "La diferencia fue que no nos vendieron teoría. El agente quedó funcionando, con reglas claras y métricas para saber cuándo escalar a una persona.",
+    result: "24/7 atención inicial",
+    category: "AI Agent",
+    technologies: ["AI Agent", "RAG", "WhatsApp"],
+    initials: "DS",
+  },
+  {
+    name: "Laura Méndez",
+    company: "PulseOps",
+    role: "Operations Lead",
+    quote: "El sistema redujo tareas manuales y nos dio seguimiento automático sin perder control. El equipo trabaja con menos fricción y más contexto.",
+    result: "-54% tareas manuales",
+    category: "Automatización",
+    technologies: ["n8n", "CRM", "WhatsApp"],
+    initials: "LM",
+  },
+  {
+    name: "Ricardo Ibarra",
+    company: "Lumen Advisory",
+    role: "Socio Director",
+    quote: "El agente de IA quedó alineado a nuestro tono y reglas internas. Resuelve preguntas frecuentes, califica intención y escala casos con contexto suficiente.",
+    result: "24/7 atención inicial",
+    category: "AI Agents",
+    technologies: ["AI Agent", "RAG", "CRM"],
+    initials: "RI",
+  },
+];

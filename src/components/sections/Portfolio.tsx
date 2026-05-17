@@ -1,18 +1,17 @@
 import { useState } from "react";
 import { projects } from "../../data/siteData";
 import type { Project } from "../../types";
-import { IntelligentFlowCanvas } from "../ui/IntelligentFlowCanvas";
 import { ProjectCard } from "../ui/ProjectCard";
 import { ProjectModal } from "../ui/ProjectModal";
 import { SectionHeader } from "../ui/SectionHeader";
 
 export function Portfolio() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  // Landing page intentionally shows only the first 4 projects to keep the section compact.
   const visibleProjects = projects.slice(0, 4);
 
   return (
     <section id="portfolio" className="page-section relative overflow-hidden bg-axon-dark text-white">
-      <IntelligentFlowCanvas density="ambient" className="opacity-35" />
       <div className="absolute inset-0 bg-axon-dark/85" aria-hidden="true" />
       <div className="container-shell relative z-10">
         <div className="max-w-3xl">

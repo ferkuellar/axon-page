@@ -1,12 +1,10 @@
 import { differences } from "../../data/siteData";
 import { DifferenceCard } from "../ui/DifferenceCard";
-import { IntelligentFlowCanvas } from "../ui/IntelligentFlowCanvas";
 import { SectionHeader } from "../ui/SectionHeader";
 
 export function WhyAxon() {
   return (
     <section id="nosotros" className="page-section relative overflow-hidden bg-axon-dark text-white">
-      <IntelligentFlowCanvas density="ambient" className="opacity-45" />
       <div className="absolute inset-0 bg-axon-dark/80" aria-hidden="true" />
       <div className="container-shell relative z-10">
         <SectionHeader

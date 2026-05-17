@@ -1,5 +1,4 @@
 import { Logo } from "./Navbar";
-import { IntelligentFlowCanvas } from "../ui/IntelligentFlowCanvas";
 import { brand, services } from "../../data/siteData";
 import type { NavLink } from "../../types";
 
@@ -11,7 +10,6 @@ interface FooterProps {
 export function Footer({ links, onNavigate }: FooterProps) {
   return (
     <footer className="relative overflow-hidden border-t border-axon-surface bg-[#030608]">
-      <IntelligentFlowCanvas density="ambient" className="opacity-25" />
       <div className="absolute inset-0 bg-[#030608]/90" aria-hidden="true" />
       <div className="container-shell relative z-10 py-14 md:py-16">
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr_0.8fr_0.9fr]">

@@ -19,7 +19,6 @@ export interface ProcessStep {
 export interface Plan {
   tag: string;
   name: string;
-  price: string;
   note: string;
   highlighted: boolean;
   items: string[];

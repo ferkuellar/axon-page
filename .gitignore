@@ -17,6 +17,7 @@ build/
 .vite/
 .cache/
 .playwright-mcp/
+docs/audits/preview-*.log
 
 # Logs
 *.log

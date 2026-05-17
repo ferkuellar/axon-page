@@ -1,9 +1,9 @@
 import { testimonials } from "../../data/siteData";
 import { TestimonialCard } from "../ui/TestimonialCard";
 
-export function Testimonials() {
-  const marqueeTestimonials = [...testimonials, ...testimonials];
+const marqueeTestimonials = [...testimonials, ...testimonials];
 
+export function Testimonials() {
   return (
     <section className="page-section overflow-hidden bg-axon-light">
       <div className="container-shell">
