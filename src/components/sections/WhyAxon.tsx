@@ -10,9 +10,9 @@ export function WhyAxon() {
       <div className="absolute inset-0 bg-axon-dark/80" aria-hidden="true" />
       <div className="container-shell relative z-10">
         <SectionHeader
-          eyebrow="Por qué AXON"
-          title='No somos otra agencia de "redes y diseño".'
-          description="Somos un estudio digital de crecimiento, automatización e inteligencia comercial para empresas que necesitan claridad, velocidad y control."
+          eyebrow="Por qué AxonAI"
+          title='No somos una agencia que agregó "IA" a su portafolio.'
+          description="Somos un equipo técnico que implementa, despliega y opera sistemas de IA con métricas, documentación y criterio comercial."
           dark
         />
         <div className="grid gap-5 md:grid-cols-2">

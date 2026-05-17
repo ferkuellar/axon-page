@@ -18,10 +18,10 @@ export function Footer({ links, onNavigate }: FooterProps) {
           <div>
             <Logo />
             <p className="mt-5 max-w-sm text-sm leading-7 text-[#6F7D93]">
-              Estudio digital de crecimiento, automatización e inteligencia comercial para empresas que necesitan sistemas claros, medibles y escalables.
+              Agencia de inteligencia artificial para empresas que necesitan automatizar procesos, generar inteligencia de negocio y operar sistemas medibles.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
-              {["Web", "CRM", "IA", "Analytics"].map((item) => (
+              {["Agentes IA", "Automatización", "Dashboards", "Cloud"].map((item) => (
                 <span key={item} className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-[#8CB8FF]">
                   {item}
                 </span>
@@ -57,14 +57,14 @@ export function Footer({ links, onNavigate }: FooterProps) {
               <p className="text-sm text-[#6F7D93]">{brand.location}</p>
             </div>
             <button className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-axon-blue px-5 text-sm font-bold text-white transition hover:bg-[#1a6eee]" type="button" onClick={() => onNavigate("contacto")}>
-              Agendar Discovery
+              Solicitar AI Audit
             </button>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-[#3A4860] md:flex-row md:items-center md:justify-between">
-          <p>© 2026 AXON. Todos los derechos reservados.</p>
-          <p>Infraestructura digital para empresas · México</p>
+          <p>© 2026 AxonAI. Todos los derechos reservados.</p>
+          <p>IA aplicada para empresas · México</p>
         </div>
       </div>
     </footer>

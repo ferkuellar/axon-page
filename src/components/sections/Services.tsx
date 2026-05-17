@@ -11,8 +11,8 @@ export function Services() {
       <div className="container-shell relative z-10">
         <SectionHeader
           eyebrow="Servicios"
-          title="Un estudio para construir todo tu sistema comercial digital."
-          description="AXON conecta presencia, captación, seguimiento, automatización e inteligencia de datos en una operación coherente."
+          title="Servicios productizados para implementar IA real en tu operación."
+          description="AxonAI combina agentes, automatización, datos e infraestructura cloud para pasar de idea a sistema funcionando."
           dark
         />
         <div className="grid gap-5 md:grid-cols-2">

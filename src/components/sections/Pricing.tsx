@@ -11,9 +11,9 @@ export function Pricing({ onNavigate }: PricingProps) {
     <section id="precios" className="page-section bg-white">
       <div className="container-shell">
         <SectionHeader
-          eyebrow="Inversión"
-          title="Planes pensados para madurar tu operación digital por etapas."
-          description="No eliminamos alcance estratégico para bajar precio: cada plan incluye estructura, medición y entregables listos para operar."
+          eyebrow="Formas de empezar"
+          title="Elige el punto de entrada correcto para implementar IA sin improvisar."
+          description="No publicamos precios cerrados porque el alcance depende del proceso, datos e integraciones. Empezamos con diagnóstico, implementación o mejora continua."
           align="center"
         />
         <div className="grid items-start gap-6 lg:grid-cols-3">

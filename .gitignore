@@ -16,6 +16,7 @@ build/
 # Vite / tooling caches
 .vite/
 .cache/
+.playwright-mcp/
 
 # Logs
 *.log

@@ -33,7 +33,7 @@ export function Navbar({ links, scrolled, onNavigate }: NavbarProps) {
       </nav>
       <div className="flex items-center gap-3">
         <Button className="hidden px-5 py-2 text-sm md:inline-flex" onClick={() => navigate("contacto")}>
-          Agendar Discovery
+          AI Audit
         </Button>
         <button
           className="grid h-11 w-11 place-items-center rounded-lg border border-axon-border bg-axon-surface/70 md:hidden"
@@ -64,8 +64,8 @@ export function Navbar({ links, scrolled, onNavigate }: NavbarProps) {
 
 export function Logo() {
   return (
-    <a className="inline-flex items-center gap-1.5 font-display text-xl font-extrabold tracking-[0.28em] text-white no-underline" href="#inicio" aria-label="Ir al inicio de AXON">
-      <span>AXON</span>
+    <a className="inline-flex items-center gap-1.5 font-display text-xl font-extrabold tracking-[0.16em] text-white no-underline" href="#inicio" aria-label="Ir al inicio de AxonAI">
+      <span>AxonAI</span>
       <span className="mb-1.5 h-1.5 w-1.5 rounded-full bg-axon-blue" aria-hidden="true" />
     </a>
   );

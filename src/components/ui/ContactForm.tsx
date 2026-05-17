@@ -60,7 +60,7 @@ export function ContactForm() {
     }
 
     // Preparado para futura integración con CRM, email transaccional o API propia.
-    console.info("AXON lead payload", form);
+    console.info("AxonAI lead payload", form);
     setSent(true);
     setForm(initialForm);
   };
@@ -90,7 +90,7 @@ export function ContactForm() {
             ))}
           </select>
         </Field>
-        <Field label="Presupuesto aproximado" id="budget" error={errors.budget}>
+        <Field label="Etapa o intención" id="budget" error={errors.budget}>
           <select id="budget" value={form.budget} onChange={(event) => updateField("budget", event.target.value)} aria-invalid={Boolean(errors.budget)}>
             <option value="">Seleccionar</option>
             {contactForm.budgets.map((budget) => (
@@ -107,14 +107,14 @@ export function ContactForm() {
           rows={5}
           value={form.message}
           onChange={(event) => updateField("message", event.target.value)}
-          placeholder="Cuéntanos qué quieres mejorar, automatizar o medir."
+          placeholder="Cuéntanos qué proceso quieres automatizar, medir o atender con IA."
           aria-invalid={Boolean(errors.message)}
         />
       </Field>
       <Button type="submit" fullWidth>
         Enviar solicitud
       </Button>
-      {sent ? <p className="mt-4 text-sm leading-6 text-[#BFE4FF]" role="status">Solicitud lista. En producción este punto se conectará al CRM o backend de AXON.</p> : null}
+      {sent ? <p className="mt-4 text-sm leading-6 text-[#BFE4FF]" role="status">Solicitud lista. En producción este punto se conectará al CRM o backend de AxonAI.</p> : null}
     </form>
   );
 }

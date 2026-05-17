@@ -33,7 +33,7 @@ export function PlanCard({ plan, onSelect }: PlanCardProps) {
         ))}
       </ul>
       <Button variant={highlighted ? "primary" : "outline"} fullWidth onClick={onSelect}>
-        Solicitar propuesta
+        Solicitar diagnóstico
       </Button>
     </article>
   );

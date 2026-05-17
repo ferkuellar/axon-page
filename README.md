@@ -1,6 +1,6 @@
-# AXON Website
+# AxonAI Website
 
-Landing page corporativa de AXON, un estudio digital de crecimiento, automatización e inteligencia comercial para empresas.
+Landing page pública de AxonAI, una agencia de inteligencia artificial enfocada en implementar agentes, automatizaciones, dashboards e infraestructura cloud para empresas de México y Latinoamérica.
 
 ## Stack
 
@@ -66,8 +66,8 @@ Todo el contenido editable vive en `src/data/siteData.ts`:
 - `navLinks`: navegación principal y footer.
 - `services`: tarjetas de servicios.
 - `steps`: metodología.
-- `plans`: planes y precios. El plan con `highlighted: true` se muestra destacado.
-- `differences`: diferenciales de AXON.
+- `plans`: formas de empezar sin precios públicos. El elemento con `highlighted: true` se muestra destacado.
+- `differences`: diferenciales de AxonAI.
 - `heroMetrics`: métricas del hero.
 - `contactForm`: opciones del formulario.
 - `brand`: correo, WhatsApp y ubicación.
@@ -77,7 +77,7 @@ Todo el contenido editable vive en `src/data/siteData.ts`:
 - El formulario tiene validación frontend y deja `handleSubmit` preparado para integración futura con CRM, email transaccional o API propia.
 - El SEO básico está en `index.html`.
 - `robots.txt` y `sitemap.xml` están incluidos como base técnica para indexación.
-- El favicon incluido es un placeholder SVG y puede reemplazarse por el isotipo final de AXON.
+- El favicon incluido es un placeholder SVG y puede reemplazarse por el isotipo final de AxonAI.
 
 ## Diagnóstico UI/UX aplicado
 
@@ -90,7 +90,7 @@ Todo el contenido editable vive en `src/data/siteData.ts`:
 ## Mejoras implementadas
 
 - Hero más minimalista, con un solo mensaje principal, CTA claro y métricas de menor ruido.
-- Nueva sección de beneficios para explicar captación, seguimiento y operación antes de entrar al detalle de servicios.
+- Nueva sección de beneficios para explicar AI Automation, Data Intelligence y Cloud AI Infrastructure antes de entrar al detalle de servicios.
 - Cards más ligeras, con hover sutil y menos sombras costosas.
 - Animaciones reveal reducidas a 320ms con `ease-out` y soporte `prefers-reduced-motion`.
 - CTA flotante global para email y WhatsApp, oculto en móviles pequeños para no invadir el viewport.
@@ -115,11 +115,11 @@ Todo el contenido editable vive en `src/data/siteData.ts`:
 - [ ] Probar formulario vacío, email inválido y envío válido.
 - [ ] Probar apertura/cierre del modal de portfolio con mouse y teclado.
 - [ ] Validar legibilidad y contraste de testimonios en mobile.
-- [ ] Confirmar que “Agendar Discovery” navega a `#contacto`.
-- [ ] Confirmar que Growth sigue destacado en precios.
+- [ ] Confirmar que “AI Audit” navega a `#contacto`.
+- [ ] Confirmar que la implementación destacada no muestra precios públicos.
 - [ ] Ejecutar `npm run build`.
 - [ ] Ejecutar Lighthouse mobile y revisar Performance, Accessibility, Best Practices y SEO.
-- [ ] Reemplazar `https://axon.mx/` en canonical/sitemap si el dominio final cambia.
+- [ ] Reemplazar `https://axonai.mx/` en canonical/sitemap si el dominio final cambia.
 
 ## Registro de mejoras significativas
 

@@ -7,11 +7,11 @@ export function Process() {
       <div className="container-shell">
         <SectionHeader
           eyebrow="Metodología"
-          title="Un proceso claro para pasar de idea a sistema funcionando."
-          description="Trabajamos con etapas, entregables y criterios de calidad visibles. Menos incertidumbre, más control."
+          title="Un flujo de entrega claro para llevar IA a producción."
+          description="Cada etapa tiene entregables, revisiones y criterios técnicos visibles para reducir riesgo y mantener control."
           align="center"
         />
-        <div className="relative grid gap-8 md:grid-cols-5 md:gap-3">
+        <div className="relative grid gap-8 md:grid-cols-6 md:gap-3">
           <div className="absolute left-[10%] right-[10%] top-7 hidden h-px bg-[#E4E9F2] md:block" aria-hidden="true" />
           {steps.map((step) => (
             <article key={step.number} className="reveal relative z-10 text-center">
